@@ -1,0 +1,15 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore a specific file
+secret.txt
+
+# Exclude everything in a specific directory
+!src/important-file.js
